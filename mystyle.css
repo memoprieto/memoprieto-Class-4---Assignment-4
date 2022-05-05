@@ -1,0 +1,137 @@
+/*Global*/
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(55, 82, 220);
+    color: black;
+}
+/*Utilities*/
+.container{
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+/*Headers*/
+header{
+    background-image: url(https://www.redaccionmedica.com/images/destacados/una-bacteria-del-agua-del-mar-podria-ser-la-clave-para-tratar-el-melanoma-2097.jpg);
+    height: 40vh;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+header h1{
+    font-size: 60px;
+    color: chartreuse; 
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 20px;
+    word-spacing: 10px;
+    text-shadow: 2px 2px rgb(143, 77, 77); 
+}
+
+header h2{
+    font-size: 20px;
+    color: rgb(8, 6, 45); 
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 20px;
+    word-spacing: 10px;
+    text-shadow: 2px 2px rgb(143, 77, 77); 
+}
+
+header .social-media{
+    margin-top:20px;
+    text-align: center;
+}
+header .social-media a{
+    color:rgb(216, 19, 19);
+    font-size: 30px;
+    margin-right: 40px;
+}
+.fa-youtube{
+    color:rgb(246, 19, 11);
+}
+.fa-google{
+    color:rgb(21, 230, 46);
+}
+
+.fa-internet-explorer{
+    color:rgba(7, 7, 7, 0.346);
+}
+
+
+/*menu*/
+
+nav.menu{
+    background-color: #dedede;
+    padding: 20px;
+    text-align:center;
+    /*margin-bottom: 100px;*/
+}
+nav a{
+    display: inline-block;
+    margin-right: 15px;
+   text-decoration: none;
+   color: #0c0c0c; 
+}
+nav.menu{
+    font-size: 16px;
+}
+footer nav a{
+    font-size: 12px;
+}
+/*index main*/
+div.services{
+    background-color: #dedede;
+    /* t r b l*/
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+}
+div.services p{
+    line-height: 2;
+}
+div.services-icon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcc00;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 10px auto 10px auto;
+}
+div.services-icon i{
+    font-size: 25px;
+}
+
+/*Projects*/
+ul,ol{
+    background-color: #dedede;
+    width: 50%;
+    padding:20px;
+}
+ul li,ol li{
+    border-left:5px solid black;
+    padding:10px;
+    background-color: #a2a2a2;
+    margin:10px;
+}
+ul li:hover, ol li:hover{
+    background-color: #ffcc00;
+    font-weight: 700;
+}
+h5{
+    font-size: 25px;
+}
+
+ol li{
+    color: #7f7f7f;
+}
+/*<li>Learn to program better in html<a href="#">Gitsub</a></li>*/
